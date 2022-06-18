@@ -20,7 +20,8 @@ const Register = () => {
           }
           else {
 
-               const url = 'http://127.0.0.1:8000/auth-api/register';
+               const host = 'https://authentication-system-backend.herokuapp.com'
+               const url = `${host}/auth-api/register`;
 
                setSpinnerDisplay("block");
 

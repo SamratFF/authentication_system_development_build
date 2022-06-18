@@ -15,7 +15,8 @@ const Login = () => {
      const handleRegisterSubmit = async (e) => {
           e.preventDefault();
 
-          const url = 'http://127.0.0.1:8000/auth-api/login';
+          const host = 'https://authentication-system-backend.herokuapp.com'
+          const url = `${host}/auth-api/login`;
 
           setSpinnerDisplay("block");
 
