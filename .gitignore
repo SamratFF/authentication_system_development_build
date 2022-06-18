@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Vs Code Settings folder
+# Vs Code Settings folder Mention
 .vscode
 
 # Build Folder
